@@ -1,0 +1,10 @@
+
+  <kol-input-radio #radio _options='[{"label":"Alle Vorgänge","value":"all"},{"label":"Meine Vorgänge","value":"mine"}]'
+                    _orientation="horizontal"
+                    _label="Vorgänge" [_value]="radioValue">
+  </kol-input-radio>
+
+
+<p>
+  <strong>Ausgewählt:</strong> {{radioValue}}
+</p>
